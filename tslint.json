@@ -1,0 +1,8 @@
+{
+  "extends": ["tslint-config-airbnb"],
+  "rules":{
+    "indent":true,
+    "space-before-function-paren":true,
+    "space-within-parens":true
+  }
+}
