@@ -1,10 +1,5 @@
-// Import here Polyfills if needed. Recommended core-js (npm i -D core-js)
-// import "core-js/fn/array.find"
-// ...
-export default class DummyClass {
+import { AxiosRequestConfig } from './types';
 
-}
+function axios (config:AxiosRequestConfig) {}
 
-function getArgs (...args: string[]) {
-  return args;
-}
+export default axios;
